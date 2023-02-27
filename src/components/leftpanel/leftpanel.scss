@@ -1,0 +1,18 @@
+@import "../../index.scss";
+.item {
+  padding: 1rem !important;
+}
+
+.item:hover {
+  background-color: $dark-grey;
+}
+
+.logo:hover{
+    background-color: $black;
+}
+
+.logo{
+    .icon{
+        font-size: 4rem;
+    }
+}

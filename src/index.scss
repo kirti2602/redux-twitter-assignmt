@@ -1,0 +1,20 @@
+$red: red;
+$black: black;
+$grey: grey;
+$dark-grey: rgb(34, 33, 33);
+$white: white;
+
+
+.height100vh {
+  height: 400vh;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}

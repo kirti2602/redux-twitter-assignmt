@@ -1,0 +1,14 @@
+@import '../../index';
+
+.login {
+    background-color: $black;  
+    .login__form {
+      width: 40%;
+      padding: 2rem;
+      border: 1px solid $grey;
+    }
+  
+    .login__error{
+      color: $red !important;
+    }
+  }
