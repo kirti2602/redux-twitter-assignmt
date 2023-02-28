@@ -5,7 +5,15 @@ import "./leftpanel.scss";
 import { useSelector } from "react-redux";
 
 const LeftPanel = () => {
-  const posts = useSelector((state) => state.posts);
+  const {posts, loading} = useSelector((state) => state);
+
+  if(loading){
+    return <div>Posts are loading</div>
+  }
+
+  if(!posts || posts.length === 0){
+    return null
+  }
   const dates = posts.map((post) => post.date);
   const days = dates.map((date) => {
     const dateObj = new Date(date);

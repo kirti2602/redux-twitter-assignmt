@@ -7,4 +7,6 @@ const rootReducer = combineReducers({
     homepage: reducers
 })
 
+console.log("root reducer",rootReducer)
+
 export default rootReducer;
